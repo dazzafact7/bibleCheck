@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822071439,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse spricht über die aktuelle Verpflichtung der Sabbat-Haltung am Samstag für Christen, während die Hypothese eine historische Aussage über die frühe Kirche macht. Beide Aussagen behandeln unterschiedliche Zeitebenen (Gegenwart vs. Vergangenheit) und widersprechen sich nicht direkt, aber die Prämisse liefert auch keine Informationen über die ursprüngliche Praxis der frühen Kirche."
-  }
-}

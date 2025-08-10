@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822066729,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse spricht nur über die gegenwärtige Nicht-Verpflichtung des Samstagsabbat für Christen, ohne die Gründe dafür zu erläutern. Die Hypothese behauptet etwas über die biblische Grundlage (oder deren Fehlen) für eine Sabbatverlegung auf den Sonntag. Da die Prämisse weder bestätigt noch widerlegt, ob es eine biblische Anweisung für diese Verlegung gibt, besteht keine klare logische Verbindung - weder Unterstützung noch Widerspruch."
-  }
-}

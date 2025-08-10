@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822036782,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse behauptet, dass die Sabbatsgebote nicht aufgehoben oder verändert wurden. Die Hypothese sagt aber, dass der Samstag als Sabbat nicht mehr verpflichtend sei. Das ist ein direkter Widerspruch, denn wenn die Gebote unverändert blieben, müsste der Sabbat weiterhin eingehalten werden. Die Prämisse lässt keinen Spielraum für eine Lockerung der Sabbatspflicht."
-  }
-}

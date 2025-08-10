@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822458741,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.05,
-    "reason": "Die Prämisse behauptet ausdrücklich, dass Christen weiterhin zum Samstag-Sabbat verpflichtet sind, während die Hypothese das genaue Gegenteil aussagt - dass der Samstag-Sabbat abgeschafft wurde. Dies ist ein direkter Widerspruch in der theologischen Aussage."
-  }
-}

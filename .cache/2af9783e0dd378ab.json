@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822079500,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.05,
-    "reason": "Die Prämisse behauptet ausdrücklich, dass Christen nach biblischem Verständnis weiterhin zum Sabbathalten am Samstag verpflichtet sind. Die Hypothese leugnet genau diese Verpflichtung und erklärt den Samstagssabbat für nicht mehr bindend. Dies ist ein direkter Widerspruch in der zentralen Aussage."
-  }
-}

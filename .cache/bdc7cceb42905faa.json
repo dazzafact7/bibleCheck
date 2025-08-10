@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822425126,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse behauptet, dass der Samstag-Sabbat für Christen abgeschafft wurde. Die Hypothese stellt jedoch dar, dass die frühe Kirche ursprünglich den Samstag-Sabbat feierte. Diese Aussagen stehen in direktem Widerspruch, da die Prämisse die Abschaffung des Samstag-Sabbats behauptet, während die Hypothese dessen ursprüngliche Praxis annimmt. Der Widerspruch ist stark, aber nicht vollständig unvereinbar (da theoretisch eine Übergangsphase möglich wäre), daher der Score von 0.15."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822500067,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse stellt klar, dass die Sabbatsgebote im Neuen Testament unverändert blieben. Die Hypothese behauptet jedoch, der Sonntag sei das neue Gebot - dies würde eine Änderung oder Ersetzung des Sabbatsgebots bedeuten, was direkt der Prämisse widerspricht."
-  }
-}

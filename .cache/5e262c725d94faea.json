@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822519539,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse behauptet, dass die Sonntagsfeier ein 'neues biblisches Gebot' sei, was impliziert, dass es eine göttliche Anweisung für die Verlegung des Sabbats auf den Sonntag gibt. Die Hypothese leugnet jedoch ausdrücklich, dass es eine solche biblische Anweisung gibt. Diese beiden Aussagen stehen in direktem Widerspruch zueinander."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822569674,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.05,
-    "reason": "Die Prämisse stellt klar, dass die Sonntagsheiligung eine menschliche Tradition ist, kein biblisches Gebot. Die Hypothese behauptet jedoch, es sei ein 'neues biblisches Gebot'. Diese beiden Aussagen schließen sich direkt aus - Tradition vs. Gebot, spätere Entwicklung vs. biblische Vorschrift."
-  }
-}

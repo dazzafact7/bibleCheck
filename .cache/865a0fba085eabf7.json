@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822349277,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse stellt fest, dass der Sabbat der siebte Tag (Samstag) ist. Die Hypothese behauptet, dass Jesus und die Apostel diesen Samstag-Sabbat abgeschafft hätten. Dies widerspricht der Prämisse, da eine Abschaffung des Samstag-Sabbat bedeuten würde, dass der siebte Tag nicht mehr als Sabbat gilt - was direkt gegen die in der Prämisse festgestellte Tatsache verstößt."
-  }
-}

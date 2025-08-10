@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822146127,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse besagt, dass der Sonntag den Samstag als heiligen Tag für Christen ersetzt hat. Die Hypothese behauptet jedoch, dass Christen nach biblischem Verständnis weiterhin zum Sabbathalten am Samstag verpflichtet sind. Diese beiden Aussagen stehen in direktem Widerspruch zueinander, da die Prämisse eine Änderung der heiligen Tag-Praxis behauptet, während die Hypothese die Fortgeltung der ursprünglichen Sabbatpflicht am Samstag behauptet."
-  }
-}

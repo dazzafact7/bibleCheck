@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822139298,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse beschreibt nur die Tatsache des Wechsels vom Samstag zum Sonntag als heiligen Tag, ohne die Gründe oder den biblischen Hintergrund zu erklären. Die Hypothese macht eine Aussage über die Entstehung der Sonntagsheiligung als Tradition, die nicht direkt aus der Prämisse folgt oder ihr widerspricht. Die Prämisse gibt keine Informationen über die biblische Grundlage oder kirchliche Tradition."
-  }
-}

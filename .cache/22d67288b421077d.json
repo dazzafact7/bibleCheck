@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822286801,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse besagt, dass die frühe Kirche ursprünglich den Sabbat am Samstag feierte und NICHT am Sonntag. Die Hypothese behauptet jedoch, dass die frühe Kirche den Gottesdienst von Samstag auf Sonntag verlegt hat - was impliziert, dass sie später doch am Sonntag feierte. Dies widerspricht der Aussage der Prämisse, dass sie 'nicht am Sonntag' feierte."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822320036,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse spricht nur über die Pflicht zum Sabbathalten am Samstag, sagt aber nichts darüber aus, ob die frühe Kirche tatsächlich den Gottesdienst auf Sonntag verlegt hat oder nicht. Die Hypothese behauptet eine historische Verlegung, ohne die theologische Verpflichtung zum Samstag-Sabbath zu leugnen. Beide Aussagen können gleichzeitig wahr sein: Christen könnten nach biblischem Verständnis zum Samstag-Sabbath verpflichtet sein, während die frühe Kirche trotzdem den Sonntagsgottesdienst einführte. Es besteht weder direkte Unterstützung noch Widerspruch."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822589094,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse erklärt den Sonntag als 'neues biblisches Gebot', wodurch der traditionelle Samstag-Sabbat als verbindlich ersetzt wird. Die Hypothese behauptet jedoch weiterhin die Samstagsverpflichtung. Diese beiden Aussagen schließen sich gegenseitig aus, da ein 'neues Gebot' impliziert, dass das alte nicht mehr gilt."
-  }
-}

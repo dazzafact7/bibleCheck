@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822371932,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse behauptet eine klare Abschaffung des Sabbats durch Jesus und die Apostel, während die Hypothese das Gegenteil behauptet - dass die Sabbatsgebote unverändert blieben. Diese beiden Aussagen stehen in direktem Widerspruch zueinander."
-  }
-}

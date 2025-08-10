@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822243609,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse beschreibt eine historische Verlagerung des Gottesdienstes durch die frühe Kirche, sagt aber nichts darüber aus, welcher Tag der biblische Sabbat sei. Die Hypothese macht eine theologische Aussage über den biblischen Sabbat, die von der Prämisse weder bestätigt noch widerlegt wird. Beide Aussagen stehen unabhängig nebeneinander."
-  }
-}

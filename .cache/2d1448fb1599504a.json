@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822038249,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.15,
-    "reason": "Die Prämisse behauptet ausdrücklich, dass der Samstag-Sabbat für Christen heute nicht mehr verpflichtend ist. Die Hypothese lehnt dies ab und behauptet, dass die Sabbatsgebote nicht aufgehoben oder verändert wurden. Diese beiden Aussagen stehen in direktem Widerspruch zueinander, da die Aufhebung der Verpflichtung eine Veränderung der Sabbatsgebote darstellt."
-  }
-}

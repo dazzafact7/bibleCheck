@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822197600,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse behauptet nur, dass der Samstag-Sabbat für Christen nicht mehr verpflichtend ist, sagt aber nichts darüber, ob eine biblische Anweisung für einen Sonntag existiert oder nicht. Die Hypothese behauptet, dass es keine solche Anweisung gibt. Da die Prämisse diese Aussage weder bestätigt noch widerlegt, besteht keine klare logische Beziehung."
-  }
-}

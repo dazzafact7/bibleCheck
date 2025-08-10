@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822456280,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "contradict",
-    "score": 0.05,
-    "reason": "Die Prämisse behauptet, dass Jesus und die Apostel den Samstag-Sabbat abgeschafft haben, während die Hypothese besagt, dass Christen weiterhin zum Samstag-Sabbat verpflichtet sind. Diese beiden Aussagen stehen in direktem Widerspruch zueinander - wenn der Sabbat abgeschafft wurde, kann es keine Verpflichtung mehr geben ihn zu halten."
-  }
-}

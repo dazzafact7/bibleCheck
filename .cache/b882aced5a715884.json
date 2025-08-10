@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822209764,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse behandelt nur die Nicht-Geltung des Samstag-Sabbat für Christen, sagt aber nichts über die Sonntagsheiligung aus. Die Hypothese macht eine Aussage über die historische Herkunft der Sonntagsheiligung, die in der Prämisse nicht thematisiert wird. Beide Aussagen stehen weder im Widerspruch noch belegt die Prämisse die Hypothese."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822202227,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse spricht nur über die Lehre des Neuen Testaments bezüglich des Samstag-Sabbats für Christen, nicht über die tatsächliche Praxis der frühen Kirche. Die Hypothese behauptet eine historische Praxis der frühen Kirche, die von der Lehre unabhängig sein kann. Die Prämisse weder bestätigt noch widerspricht die Hypothese direkt."
-  }
-}

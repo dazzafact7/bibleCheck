@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822286349,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "entail",
-    "score": 0.85,
-    "reason": "Die Prämisse besagt, dass die frühe Kirche den Gottesdienst von Samstag auf Sonntag verlegt hat. Dies impliziert logisch, dass zuvor der Samstag als Sabbat-Gottesdienststag gedient hat. Die Hypothese behauptet genau dies: dass ursprünglich der Samstag als Sabbat gefeiert wurde. Die Verlegung des Gottesdienstes von Samstag auf Sonntag ist nur möglich, wenn vorher Samstag der Gottesdiensttag war. Daher unterstützt die Prämisse die Hypothese direkt."
-  }
-}

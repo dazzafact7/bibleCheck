@@ -1,9 +1,0 @@
-{
-  "timestamp": 1754822167965,
-  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
-  "data": {
-    "label": "neutral",
-    "score": 0.5,
-    "reason": "Die Prämisse behandelt die theologische Frage, ob der Samstag-Sabbat für Christen verpflichtend ist. Die Hypothese macht dagegen eine rein kalenderische Feststellung, welcher Wochentag der biblische Sabbat ist. Beide Aussagen behandeln unterschiedliche Aspekte - die eine die Gültigkeit, die andere die Identifikation des Tages - und widersprechen sich daher nicht, aber die Hypothese wird auch nicht durch die Prämisse unterstützt."
-  }
-}
