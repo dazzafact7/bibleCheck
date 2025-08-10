@@ -9,7 +9,7 @@ export default function Home() {
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
 
-  const handleAnalyze = async (thesisA, thesisB) => {
+  const handleAnalyze = async (question) => {
     setLoading(true);
     setError(null);
     setResults(null);
@@ -20,7 +20,7 @@ export default function Home() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ thesisA, thesisB }),
+        body: JSON.stringify({ question }),
       });
 
       if (!response.ok) {

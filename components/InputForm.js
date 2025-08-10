@@ -1,36 +1,28 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaSearch, FaBook, FaCross } from 'react-icons/fa';
+import { FaSearch, FaQuestionCircle } from 'react-icons/fa';
 
 export default function InputForm({ onAnalyze, loading }) {
-  const [thesisA, setThesisA] = useState('');
-  const [thesisB, setThesisB] = useState('');
+  const [question, setQuestion] = useState('');
 
   const examples = [
-    {
-      a: "Der Sabbat wurde auf den Sonntag verlegt.",
-      b: "Der Sabbat ist nicht auf den Auferstehungstag gelegt."
-    },
-    {
-      a: "Denn Christen sind alle Speisen rein durch den Glauben",
-      b: "Denn Christen sind sind alle Speisen nicht automatisch rein geworden."
-    },
-    {
-      a: "Gott ist allwissend und allmächtig",
-      b: "Menschen haben einen freien Willen"
-    }
+    "Ist der Sabbat für Christen noch gültig?",
+    "Sind alle Speisen für Christen rein?",
+    "Ist die Taufe notwendig für die Erlösung?",
+    "Müssen Christen den Zehnten zahlen?",
+    "Ist die Zungenrede ein Zeichen des Heiligen Geistes?",
+    "Können Frauen in der Gemeinde lehren?"
   ];
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (thesisA.trim() && thesisB.trim()) {
-      onAnalyze(thesisA.trim(), thesisB.trim());
+    if (question.trim()) {
+      onAnalyze(question.trim());
     }
   };
 
-  const loadExample = (example) => {
-    setThesisA(example.a);
-    setThesisB(example.b);
+  const loadExample = (exampleQuestion) => {
+    setQuestion(exampleQuestion);
   };
 
   return (
@@ -40,44 +32,28 @@ export default function InputForm({ onAnalyze, loading }) {
       className="input-form-container"
     >
       <form onSubmit={handleSubmit} className="input-form">
-        <div className="form-grid">
-          <div className="form-group">
-            <label htmlFor="thesisA" className="form-label">
-              <FaBook className="label-icon" />
-              These A
-            </label>
-            <textarea
-              id="thesisA"
-              value={thesisA}
-              onChange={(e) => setThesisA(e.target.value)}
-              placeholder="Geben Sie die erste biblische These ein..."
-              className="form-textarea"
-              rows="4"
-              required
-              disabled={loading}
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="thesisB" className="form-label">
-              <FaCross className="label-icon" />
-              These B
-            </label>
-            <textarea
-              id="thesisB"
-              value={thesisB}
-              onChange={(e) => setThesisB(e.target.value)}
-              placeholder="Geben Sie die zweite biblische These ein..."
-              className="form-textarea"
-              rows="4"
-              required
-              disabled={loading}
-            />
+        <div className="form-group">
+          <label htmlFor="question" className="form-label">
+            <FaQuestionCircle className="label-icon" />
+            Biblische Frage
+          </label>
+          <textarea
+            id="question"
+            value={question}
+            onChange={(e) => setQuestion(e.target.value)}
+            placeholder="Stellen Sie Ihre biblische Frage... (z.B. 'Ist der Sabbat für Christen noch gültig?')"
+            className="form-textarea"
+            rows="3"
+            required
+            disabled={loading}
+          />
+          <div className="form-hint">
+            💡 Die KI erstellt automatisch These und Antithese aus Ihrer Frage
           </div>
         </div>
 
         <div className="examples-section">
-          <p className="examples-title">Beispiele:</p>
+          <p className="examples-title">Beispiel-Fragen:</p>
           <div className="examples-grid">
             {examples.map((example, index) => (
               <button
@@ -87,7 +63,7 @@ export default function InputForm({ onAnalyze, loading }) {
                 className="example-button"
                 disabled={loading}
               >
-                Beispiel {index + 1}
+                {example}
               </button>
             ))}
           </div>
@@ -95,13 +71,13 @@ export default function InputForm({ onAnalyze, loading }) {
 
         <motion.button
           type="submit"
-          disabled={loading || !thesisA || !thesisB}
+          disabled={loading || !question}
           className="submit-button"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >
           <FaSearch className="button-icon" />
-          {loading ? 'Analysiere...' : 'Thesen analysieren'}
+          {loading ? 'Analysiere Frage...' : 'Frage analysieren'}
         </motion.button>
       </form>
     </motion.div>

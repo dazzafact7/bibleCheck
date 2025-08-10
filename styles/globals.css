@@ -644,3 +644,79 @@
 	gap: 0.5rem;
 	color: var(--text-secondary);
  }
+
+.form-hint {
+	margin-top: 0.5rem;
+	color: var(--text-muted);
+	font-size: 0.875rem;
+	font-style: italic;
+}
+
+
+/* Question Info Styles */
+.question-info {
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid var(--card-border);
+	border-radius: 0.75rem;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.question-title {
+	color: var(--text-primary);
+	margin-bottom: 0.75rem;
+	font-size: 1.125rem;
+}
+
+.question-text {
+	color: var(--text-secondary);
+	font-size: 1.125rem;
+	font-style: italic;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 0.5rem;
+	border-left: 3px solid var(--primary);
+}
+
+.topic-phrase {
+	color: var(--text-muted);
+	font-size: 0.875rem;
+	margin-bottom: 1.5rem;
+}
+
+.theses-title {
+	color: var(--text-primary);
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+.theses-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+@media (max-width: 768px) {
+	.theses-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.thesis-item {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	font-size: 0.875rem;
+}
+
+.thesis-a {
+	background: rgba(107, 70, 193, 0.1);
+	border: 1px solid rgba(107, 70, 193, 0.3);
+	color: var(--text-secondary);
+}
+
+.thesis-b {
+	background: rgba(236, 72, 153, 0.1);
+	border: 1px solid rgba(236, 72, 153, 0.3);
+	color: var(--text-secondary);
+}

@@ -58,6 +58,32 @@ export default function ResultDisplay({ results }) {
         Analyseergebnis
       </h2>
 
+      {/* Zeige ursprüngliche Frage und generierte Thesen */}
+      {results.originalQuestion && (
+        <div className="question-info">
+          <h3 className="question-title">📖 Ursprüngliche Frage:</h3>
+          <p className="question-text">"{results.originalQuestion}"</p>
+          
+          {results.topicPhrase && (
+            <p className="topic-phrase">🏷️ Thema: <strong>{results.topicPhrase}</strong></p>
+          )}
+          
+          {results.generatedTheses && (
+            <div className="generated-theses">
+              <h4 className="theses-title">🤖 KI-generierte Thesen:</h4>
+              <div className="theses-grid">
+                <div className="thesis-item thesis-a">
+                  <strong>These A:</strong> {results.generatedTheses.thesisA}
+                </div>
+                <div className="thesis-item thesis-b">
+                  <strong>Antithese B:</strong> {results.generatedTheses.thesisB}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="scores-grid">
         <motion.div 
           className="score-card"
