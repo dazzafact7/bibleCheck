@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822075315,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "entail",
+    "score": 0.85,
+    "reason": "Die Prämisse lehnt die verpflichtende Einhaltung des Samstags-Sabbats für Christen ab. Daraus folgt logisch, dass die heute übliche Sonntagsheiligung nicht auf einer biblischen Sabbat-Vorschrift beruhen kann, sondern auf späterer kirchlicher Tradition. Die Hypothese wird daher deutlich gestützt, auch wenn die Prämisse nicht explizit über die Sonntagsheiligung spricht."
+  }
+}

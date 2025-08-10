@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822126096,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über das Fehlen einer biblischen Anweisung für die Sabbat-Verlegung. Die Hypothese behauptet eine tatsächliche Ersetzung des Samstags durch den Sonntag, ohne diese auf eine biblische Anweisung zurückzuführen. Die Prämisse weder bestätigt noch widerspricht die tatsächliche Praxis der Sonntagsheiligung in der Christenheit."
+  }
+}

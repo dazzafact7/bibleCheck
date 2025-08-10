@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822032160,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt lediglich, welcher Tag der biblische Sabbat ist (Samstag), ohne Aussagen über dessen Gültigkeit oder Verpflichtung für Christen heute zu machen. Die Hypothese trifft eine theologische Aussage über die gegenwärtige Verpflichtung, die in der Prämisse weder bestätigt noch widerlegt wird. Es besteht keine logische Ableitung von der einen zur anderen Aussage."
+  }
+}

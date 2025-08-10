@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822482819,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse definiert den biblischen Sabbat als Samstag, während die Hypothese den Sonntag als neues biblisches Gebot darstellt. Diese beiden Aussagen stehen in direktem Widerspruch zueinander, da der Samstag als siebter Tag der Woche nicht mit dem Sonntag als erstem Tag übereinstimmt. Die Hypothese impliziert eine Änderung des biblischen Gebotes, was der Prämisse widerspricht, die den Samstag als festgelegten Sabbat ansieht."
+  }
+}

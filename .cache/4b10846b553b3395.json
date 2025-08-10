@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822501413,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse behauptet, der Sonntag sei das 'neue biblische Gebot', was impliziert, dass das traditionelle Sabbatgebot (Samstag) abgelöst wurde. Die Hypothese lehrt hingegen, dass die ursprünglichen Sabbatsgebote unverändert gültig blieben. Diese beiden Aussagen stehen in direktem Widerspruch, da eine Änderung des Sabbats von Samstag auf Sonntag eine Aufhebung oder Veränderung des ursprünglichen Gebotes darstellen würde."
+  }
+}

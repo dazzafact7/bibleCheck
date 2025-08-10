@@ -1,0 +1,108 @@
+Online Bible Fact Checker. ReactApp. Thesen Vergleiche
+
+Passe das gitHub repo script unten an
+
+verbessere mir dieses Skript zum  Bibel Plausibilitätsprüfung einiger Interpretationen. Z.B gpt system Prompts und JSON parsing des openAi json response. Aber auch mit file Cache für die GPT requests an openAi
+
+Mache es als Frontend Variante, mit user Input und dann die Argumentationskette von Pro und Kontra detailliert für den USer aufgeschlüsselt im Frontend. das der User die Entscheidungen sehen kann im Frontend als Baum Hierarchie Struktur. 
+
+Verwende minimalistisches Layout ABer extrem UI/UX wie von Profi gestaltet, z.b. mit tailwind 
+
+###Fact Checker (default gitHub
+
+// file: theses-check.mjs
+
+import OpenAI from "openai";
+
+const ai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// helpers
+
+const ask = (model, sys, usr) => ai.responses.create({
+
+  model, input:[{role:"system",content:sys},{role:"user",content:usr}]
+
+}).then(r=>r.output_text);
+
+// 1) Claims extrahieren
+
+const extractClaims = (thesis, model="gpt-4.1-mini") => ask(model,
+
+  "Du zerlegst Texte in prägnante, überprüfbare Einzelaussagen (Claims). Antworte als JSON: {claims:[...]}. Keine Quellen, keine Websuche.",
+
+  Text:\n${thesis}\nGib 3-8 kurze Claims.).then(x=>JSON.parse(x).claims);
+
+// 2) NLI zwischen Claim-Paaren (beide Richtungen)
+
+const nliJudge = (a,b, model="gpt-4.1-mini") => ask(model,
+
+  "Du bist ein NLI-Judge. Werte HYP relativ zu PREM als entail/contradict/neutral und begründe in 1 Satz. Antworte JSON: {label,reason}.",
+
+  PREM: ${a}\nHYP: ${b}).then(x=>JSON.parse(x));
+
+// 3) Debate (optional)
+
+const debate = (claimA, claimB, model="gpt-4.1-mini") => ask(model,
+
+  "Zwei Kurzplädoyers: PRO-A verteidigt ClaimA ggü. ClaimB; PRO-B verteidigt ClaimB ggü. ClaimA. Antworte JSON {proA,proB}.",
+
+  ClaimA: ${claimA}\nClaimB: ${claimB}).then(x=>JSON.parse(x));
+
+// 4) Finaler Judge-Score
+
+const finalJudge = (data, model="gpt-4.1") => ask(model,
+
+  "Du bist der finale Richter. Werte Stringenz/Logik ohne Web-Recherche. Antworte kompaktes JSON: "+
+
+  "{a_score:0-1,b_score:0-1,contradiction_rate:0-1,summary:string,verdict:'A'|'B'|'tie'}",
+
+  Basisdaten:\n${JSON.stringify(data).slice(0,12000)}) // 12k sicherheitshalber
+
+  .then(x=>JSON.parse(x));
+
+// Pipeline
+
+export async function compareTheses(thesisA, thesisB, useDebate=true){
+
+  const [A,B]=await Promise.all([extractClaims(thesisA), extractClaims(thesisB)]);
+
+  const pairs=[];
+
+  for(const a of A) for(const b of B){
+
+    const [ab,ba]=await Promise.all([nliJudge(a,b), nliJudge(b,a)]);
+
+    const deb = useDebate ? await debate(a,b) : null;
+
+    pairs.push({a,b,ab,ba,debate:deb});
+
+  }
+
+  const stats={
+
+    total:pairs.length,
+
+    contradictions:pairs.filter(p=>p.ab.label==='contradict'||p.ba.label==='contradict').length
+
+  };
+
+  const result=await finalJudge({claimsA:A,claimsB:B,pairs,stats});
+
+  return {stats,result};
+
+}
+
+// --- Beispiel ---
+
+if (import.meta.url === file://${process.argv[1]}){
+
+  const thesisA = process.argv[2]||"These A: Höhere Mehrwertsteuer senkt langfristig den Konsum.";
+
+  const thesisB = process.argv[3]||"These B: Eine höhere Mehrwertsteuer steigert die Kaufkraft.";
+
+  const {stats,result}=await compareTheses(thesisA,thesisB,true);
+
+  console.log(JSON.stringify({stats,result},null,2));
+
+}
+

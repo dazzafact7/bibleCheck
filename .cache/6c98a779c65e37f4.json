@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822243215,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse definiert nur, was der biblische Sabbat ist (Samstag), sagt aber nichts darüber aus, ob die frühe Kirche den Gottesdienst tatsächlich auf Sonntag verlegt hat. Die Hypothese behauptet eine historische Veränderung, die in der Prämisse weder bestätigt noch widerlegt wird."
+  }
+}

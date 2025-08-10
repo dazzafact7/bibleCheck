@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822100579,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt eine historische Entwicklung des christlichen Gottesdiensttags, während die Hypothese eine theologische Feststellung über den biblischen Sabbat ist. Beide Aussagen stehen nicht in direktem Widerspruch, da die Prämisse nicht bestreitet, dass Samstag der siebte Tag ist. Gleichzeitig unterstützt die Prämisse die Hypothese aber auch nicht explizit - sie behandelt lediglich eine andere Aspekte der Frage."
+  }
+}

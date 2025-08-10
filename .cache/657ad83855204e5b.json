@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822313687,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die Tradition der Sonntagsheiligung als spätere kirchliche Entwicklung, ohne den Tag des Gottesdienstes zu thematisieren. Die Hypothese behauptet eine Verlegung des Gottesdienstes von Samstag auf Sonntag, was ein anderes Thema ist. Die Prämisse gibt weder Unterstützung noch Widerspruch für diese spezifische Behauptung."
+  }
+}

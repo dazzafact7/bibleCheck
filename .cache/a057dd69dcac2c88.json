@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822074892,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die Sonntagsheiligung als spätere Tradition, sagt aber nichts darüber aus, ob der Samstagssabbat für Christen verpflichtend ist oder nicht. Die Hypothese macht eine Aussage über den Samstagssabbat, die aus der Prämisse nicht abgeleitet werden kann - sie wird weder bestätigt noch widerlegt."
+  }
+}

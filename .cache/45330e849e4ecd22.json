@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822372024,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.05,
+    "reason": "Die Prämisse behauptet, dass die Sabbatsgebote im Neuen Testament nicht aufgehoben wurden. Die Hypothese behauptet genau das Gegenteil – dass der Samstag-Sabbat abgeschafft wurde. Beide Aussagen stehen in direktem Widerspruch zueinander."
+  }
+}

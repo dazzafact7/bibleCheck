@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822129716,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "entail",
+    "score": 0.85,
+    "reason": "Die Prämisse besagt, dass der Sonntag den Samstag als heiligen Tag ersetzt hat. Dies impliziert zwangsläufig, dass zuvor der Samstag (Sabbath) der heilige Tag war - was genau die Hypothese aussagt. Die Aussage über den Ersatz beweist, dass es einen vorherigen Zustand gab, in dem der Samstag gefeiert wurde."
+  }
+}

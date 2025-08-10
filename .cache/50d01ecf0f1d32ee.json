@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822278933,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt lediglich eine historische Praxis der frühen Kirche (Verlegung des Gottesdienstes von Samstag auf Sonntag), ohne die Gründe oder theologische Legitimation dafür zu erwähnen. Die Hypothese behauptet die Abwesenheit einer biblischen Anweisung für diese Verlegung. Da die Prämisse keine Aussage über biblische Anweisungen trifft, kann sie weder die Hypothese stützen noch ihr widersprechen. Die beiden Aussagen stehen inhaltlich unabhängig nebeneinander."
+  }
+}

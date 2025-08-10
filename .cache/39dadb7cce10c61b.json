@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822250649,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse besagt nur, dass die Sabbatsgebote im NT nicht explizit aufgehoben wurden. Sie sagt nichts darüber aus, ob die frühe Kirche dennoch den Gottesdienst auf Sonntag verlegt hat oder nicht. Die Hypothese behauptet eine historische Praxis, die mit der formellen Geltung der Sabbatsgebote nicht zwingend im Widerspruch steht – die Kirche könnte den Tag gewechselt haben, ohne die Gebote formell aufzuheben. Daher besteht weder eine direkte Unterstützung noch ein Widerspruch."
+  }
+}

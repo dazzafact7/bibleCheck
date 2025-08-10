@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822451087,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse behauptet, dass Jesus und die Apostel den Samstag-Sabbat abgeschafft hätten, was implizit den Sonntag als neuen Ruhetag einführen würde. Die Hypothese stellt jedoch die biblische Grundlage der Sonntagsheiligung in Frage und sieht sie als spätere kirchliche Tradition. Diese beiden Aussagen stehen nicht in direktem Widerspruch, da die Prämisse nicht explizit behauptet, dass die Sonntagsheiligung eine biblische Vorschrift sei. Gleichzeitig unterstützt die Prämisse die Hypothese auch nicht direkt, da sie die Frage nach der biblischen Grundlage offen lässt."
+  }
+}

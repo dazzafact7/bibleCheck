@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822172421,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.05,
+    "reason": "Die Prämisse besagt ausdrücklich, dass die Sabbatsgebote im Neuen Testament nicht aufgehoben oder verändert wurden. Die Hypothese behauptet jedoch, dass der Samstag-Sabbat für Christen nicht mehr gelte. Diese beiden Aussagen stehen in direktem Widerspruch zueinander, da die Aufhebung des Sabbats eine klare Veränderung oder Aufhebung der Sabbatsgebote darstellen würde."
+  }
+}

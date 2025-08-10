@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822126097,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt nur die historische Tatsache, dass der Sonntag den Samstag als christlicher Feiertag abgelöst hat. Die Hypothese macht jedoch eine Aussage über das Fehlen biblischer Anweisungen für diese Verlegung. Die Prämisse enthält keine Informationen über biblische Anweisungen oder deren Fehlen, daher kann sie weder die Hypothese bestätigen noch widerlegen."
+  }
+}

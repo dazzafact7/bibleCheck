@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822398982,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse besagt ausdrücklich, dass es keine biblische Anweisung gibt, den Sabbat vom Samstag auf den Sonntag zu verlegen. Die Hypothese behauptet jedoch, dass Jesus und die Apostel den Samstag-Sabbat abgeschafft hätten - was implizit eine Verlegung oder Aufhebung des Sabbats bedeuten würde. Dies widerspricht der Prämisse, dass es keine solche biblische Anweisung gibt. Die Aussagen stehen in direktem Konflikt zueinander."
+  }
+}

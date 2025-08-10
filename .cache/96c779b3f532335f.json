@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822167664,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse definiert nur den Sabbat als Samstag, sagt aber nichts darüber aus, ob er für Christen noch verpflichtend ist oder nicht. Die Hypothese behauptet eine Aufhebung des Samstag-Sabbat im Neuen Testament, was in der Prämisse weder bestätigt noch widerlegt wird. Beide Aussagen stehen unabhängig nebeneinander."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822138015,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die historische Entwicklung der Sonntagsheiligung als kirchliche Tradition, ohne etwas über die tatsächliche Ersetzung des Samstags durch den Sonntag zu sagen. Die Hypothese behauptet eine konkrete Ersetzung, die in der Prämisse weder bestätigt noch widerlegt wird."
+  }
+}

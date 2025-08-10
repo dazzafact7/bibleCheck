@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822101582,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt nur, welcher Tag der biblische Sabbat ist, ohne Aussagen über spätere Praktiken zu machen. Die Hypothese behauptet einen Ersatz durch den Sonntag, was weder durch die Prämisse bestätigt noch widersprochen wird. Die Prämisse gibt keine Informationen über christliche Praxis nach der Bibelzeit."
+  }
+}

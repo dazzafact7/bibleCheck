@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822216478,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.05,
+    "reason": "Die Prämisse behauptet ausdrücklich die fortbestehende Verpflichtung zum Samstag-Sabbat, während die Hypothese das genaue Gegenteil aussagt - nämlich dass der Samstag-Sabbat für Christen nicht mehr gilt. Diese beiden Aussagen stehen in direktem Widerspruch zueinander, da sie sich gegenseitig ausschließen."
+  }
+}

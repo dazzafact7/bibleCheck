@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822250237,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.25,
+    "reason": "Die Prämisse beschreibt eine praktische Änderung des Gottesdienstes von Samstag auf Sonntag durch die frühe Kirche. Dies impliziert eine Veränderung der Sabbatpraxis, während die Hypothese behauptet, dass die Sabbatsgebote unverändert blieben. Die Verlegung des Gottesdienstes auf den Sonntag (anstatt des biblischen Sabbats) steht im Widerspruch zur Behauptung unveränderter Sabbatsgebote."
+  }
+}

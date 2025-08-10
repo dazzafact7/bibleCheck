@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822349362,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse behauptet, dass der Samstag-Sabbat abgeschafft wurde, während die Hypothese lediglich feststellt, dass der siebte Tag Samstag ist. Diese beiden Aussagen stehen nicht in direktem Widerspruch - man kann den Samstag als siebten Tag anerkennen, gleichzeitig aber glauben, dass er für Christen nicht mehr verpflichtend ist. Die Hypothese macht keine Aussage darüber, ob der Sabbat noch gültig ist oder nicht."
+  }
+}

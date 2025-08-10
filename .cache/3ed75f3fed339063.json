@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822070872,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse beschreibt nur die ursprüngliche Praxis der frühen Kirche – dass der Samstag als Sabbat begangen wurde. Sie sagt jedoch nichts darüber aus, ob diese Praxis heute noch verpflichtend ist oder nicht. Die Hypothese trifft eine Aussage über die aktuelle Verpflichtung, die in der Prämisse weder bestätigt noch widerlegt wird. Daher besteht kein logischer Zusammenhang zwischen den beiden Aussagen."
+  }
+}

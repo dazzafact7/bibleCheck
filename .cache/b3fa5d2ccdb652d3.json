@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822447261,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die Sonntagsheiligung als spätere Tradition, sagt aber nichts darüber aus, ob Jesus und die Apostel den Samstag-Sabbat abgeschafft haben oder nicht. Die Hypothese behauptet eine konkrete Abschaffung durch Jesus und die Apostel, was in der Prämisse weder bestätigt noch widerlegt wird."
+  }
+}

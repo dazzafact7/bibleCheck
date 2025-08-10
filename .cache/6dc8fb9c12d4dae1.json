@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822420757,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse besagt, dass die frühe Kirche den Samstag-Sabbat feierte. Wenn Jesus und die Apostel den Samstag-Sabbat tatsächlich abgeschafft hätten, hätte die frühe Kirche ihn nicht feiern können. Die Hypothese steht daher im Widerspruch zur Prämisse."
+  }
+}

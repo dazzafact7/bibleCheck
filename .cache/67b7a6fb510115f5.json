@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822106935,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse behauptet, der Sonntag habe den Samstag als heiligen Tag für Christen ersetzt. Dies impliziert eine Veränderung der Sabbatspraxis, was direkt gegen die Hypothese spricht, dass die Sabbatsgebote unverändert blieben. Eine Ersetzung des Sabbats durch den Sonntag wäre eine klare Veränderung der ursprünglichen Gebote."
+  }
+}

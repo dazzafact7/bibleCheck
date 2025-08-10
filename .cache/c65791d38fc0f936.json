@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822078185,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.05,
+    "reason": "Die Prämisse lehnt die Verpflichtung zum Samstag-Sabbat für Christen klar ab, während die Hypothese diese Verpflichtung ausdrücklich behauptet. Beide Aussagen stehen in direktem Widerspruch zueinander."
+  }
+}

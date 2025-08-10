@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822197501,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über das Fehlen einer biblischen Anweisung zur Sabbatverlegung, nicht über die Gültigkeit des Sabbats. Die Hypothese behauptet eine Lehre über die Aufhebung des Samstag-Sabbats, was ein anderes Thema ist. Die Prämisse weder bestätigt noch widerspricht diese spezifische Lehre."
+  }
+}

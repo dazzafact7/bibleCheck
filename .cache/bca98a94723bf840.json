@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822032065,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die verpflichtende Einhaltung des Samstags als Sabbat für Christen heute, nicht über die tatsächliche Identität des biblischen Sabbats. Die Hypothese macht eine rein deskriptive Aussage darüber, welcher Wochentag der biblische Sabbat ist. Beide Aussagen können gleichzeitig wahr sein - der Samstag kann der biblische Sabbat sein (Hypothese), während seine Einhaltung heute nicht mehr verpflichtend ist (Prämisse)."
+  }
+}

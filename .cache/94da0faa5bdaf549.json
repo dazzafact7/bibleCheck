@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822210755,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "neutral",
+    "score": 0.5,
+    "reason": "Die Prämisse spricht nur über die Sonntagsheiligung als spätere Tradition, sagt aber nichts darüber aus, ob der Samstag-Sabbat für Christen noch gilt oder nicht. Die Hypothese macht eine spezifische Aussage über die Gültigkeit des Samstag-Sabbats im Neuen Testament, die in der Prämisse weder bestätigt noch widersprochen wird."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": 1754822106978,
+  "key": "moonshotai/kimi-k2-Du bist ein theologischer NLI-Judge.\n    Bewerte die Beziehung zwischen Prämisse ",
+  "data": {
+    "label": "contradict",
+    "score": 0.15,
+    "reason": "Die Prämisse behauptet, dass die Sabbatsgebote unverändert blieben. Die Hypothese sagt jedoch, dass der Sonntag den Samstag ersetzt hat - was eine klare Veränderung des Sabbatsgebotes darstellt. Diese beiden Aussagen stehen in direktem Widerspruch zueinander."
+  }
+}
